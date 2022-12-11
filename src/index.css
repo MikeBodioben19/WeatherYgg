@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.description{
+  transform-origin: 0 0 ;
+  transform: rotate(269deg);
+}
+::placeholder{
+  color: #fff;
+  font-size: 22px;
+}
+@media screen and (max-width:425px) {
+  ::placeholder{
+    font-size: 16px;
+  }
+}
+/* .App::before{
+  content: '';
+  background-image: url(./assets/pexels-batın-özen-11275090.jpg);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
