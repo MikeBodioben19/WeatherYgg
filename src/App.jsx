@@ -25,13 +25,13 @@ function App() {
   return (
     
     <div className="App w-full h-screen relative ">
-    <div className="logo absolute top-8 left-8">
-      <a href="#" className='text-white flex flex-row  text-3xl font-bold '>
+    <div className="logo absolute top-4 left-8">
+      <a href="#" className='text-white flex flex-row text-xl sm:ext-3xl font-bold '>
         <TiWeatherWindyCloudy size={40} className='mr-3' />
         WeatherYGG
       </a>
     </div>
-      <div className="container max-w-[700px] h-[700px] m-auto px-4 relative top-[10%] flex flex-col justify-between ">
+      <div className="container max-w-[700px] h-[90vh] m-auto px-4 relative top-[5%] flex flex-col justify-between ">
         <div className='search text-center p-4 my-4 '>
             <input type="text" value={location}
               className='py-3 w-[80%] sm:w-[50%] px-5 rounded-3xl outline-none text-white text-lg sm:text-xl font-medium border-2 border-white/80 bg-white/10'
